@@ -1,0 +1,120 @@
+
+:root {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.br {
+    border: 1px black dotted;
+}
+
+header {
+    font-family: 'Caveat', cursive;
+}
+
+
+/* nav | list............... */
+
+#analogia, #pdec {
+    display: none;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-up__cont {
+    display: flex;
+    align-items: center;
+}
+
+.nav-up--main {
+    width: 10rem;
+}
+
+.nav-up--icon {
+    width: 5rem;
+}
+
+ul {
+    display: inline-block;
+    list-style: none;
+    margin: .5rem 0;
+    padding: .3rem;
+}
+
+li {
+    display: inline-block;
+}
+
+.list-2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+    margin: 0 auto;
+}
+
+
+.option-white, .option-black, .option-design {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 11px;
+    margin: .5rem 0;
+    padding: .3rem;
+}
+
+.option-white {
+    background-color: white;
+}
+
+.option-black {
+    background-color: black;
+}
+
+.option-design {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border: 1px dotted;
+    padding-top: .4rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* img........................... */
+
+
+.description__cont {
+    display: inline-block;
+    width: 30rem;
+    margin-bottom: .5rem;
+}
+
+.img__cont {
+    width: max-content;
+    margin: 0 auto;
+}
+
+#dw-black, #dw-detail, #dw-design {
+    display: none;
+}
+
+.images {
+    display: block;
+    width: 30rem;
+}
+
+.images-small {
+    width: 15rem;
+}
